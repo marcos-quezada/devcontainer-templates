@@ -25,5 +25,5 @@
     ],
     "remoteUser": "vscode",
     "containerUser": "vscode",
-    "postCreateCommand": "nix build git+ssh://git@github.com/marcos-quezada/nix-config.git#homeConfigurations.vscode.activationPackage && ./result/activate"
+    "postCreateCommand": "nix build git+ssh://git@github.com/marcos-quezada/nix-dev-container.git#homeConfigurations.vscode.activationPackage && ./result/activate"
 }
