@@ -1,0 +1,23 @@
+{
+    "id": "nix-devcontainer",
+    "version": "1.0.0",
+    "name": "Nix Devcontainer",
+    "description": "A Template for a nix based devcontainer",
+    "documentationURL": "https://github.com/marcos-quezada/devcontainer-templates/tree/main/src/color",
+    "licenseURL": "https://github.com/marcos-quezada/devcontainer-templates/blob/main/LICENSE",
+    "options": {
+        "imageVariant": {
+            "type": "string",
+            "description": "Debian version (use bullseye on local arm64/Apple Silicon):",
+            "proposals": [
+                "bookworm",
+                "bullseye",
+                "buster"
+            ],
+            "default": "bookworm"
+        }
+    },
+    "platforms": [
+        "Any"
+    ]
+}
